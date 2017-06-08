@@ -1,18 +1,22 @@
-〇リファクタリング
-　…プログラムの振る舞いを変えることなく、(JUnitプログラムがあれば保証可能)
-　　ソースコードを変更すること
-　　・主にソースコードをきれいにする目的で実施
+�Z���t�@�N�^�����O
+�@�c�v���O�����̐U�镑����ς��邱�ƂȂ��A(JUnit�v���O����������Εۏ؉\)
+�@�@�\�[�X�R�[�h��ύX���邱��
+�@�@�E��Ƀ\�[�X�R�[�h�����ꂢ�ɂ���ړI�Ŏ��{
 
-該当箇所選択⇒Alt + Shift + m …メソッド切り出し
+�Y���ӏ��I����Alt + Shift + m �c���\�b�h�؂�o��
 
-該当箇所選択⇒Alt + Shift + l …ローカル変数に切り出し
+�Y���ӏ��I����Alt + Shift + l �c���[�J���ϐ��ɐ؂�o��
 
-該当箇所選択⇒Alt + Shift + r …クラス名や変数名など一括変換
+�Y���ӏ��I����Alt + Shift + r �c�N���X����ϐ����Ȃǈꊇ�ϊ�
 
-該当箇所選択⇒Refactor⇒Extract Constant …定数に切り出し
+�Y���ӏ��I����Refactor��Extract Constant �c�萔�ɐ؂�o��
 
-〇TDD (Test Driven Development テスト駆動開発)
-　最初にテストを書き(テストファースト)、その後そのテストが
-　通るように実装をしていく
+�ZTDD (Test Driven Development �e�X�g�쓮�J��)
+�@�ŏ��Ƀe�X�g������(�e�X�g�t�@�[�X�g)�A���̌セ�̃e�X�g��
+�@�ʂ�悤�Ɏ��������Ă���
 
-　(リファクタリングできるので)コードは汚くても、テストが通ればOK
+�@(���t�@�N�^�����O�ł���̂�)�R�[�h�͉����Ă��A�e�X�g���ʂ��OK
+
+�G���[�ӏ��ֈړ��� Ctrl + .
+
+Eclipse�̒�Ă�\���� Ctrl + 1

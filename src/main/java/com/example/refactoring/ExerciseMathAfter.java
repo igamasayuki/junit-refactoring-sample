@@ -2,17 +2,17 @@ package com.example.refactoring;
 
 public class ExerciseMathAfter {
 
-	public static int factorial(int args) {
-		if (lessThan0(args)) {
+	public static int factorial(int n) {
+		if (lessThan0(n)) {
 			throw new IllegalArgumentException("0以下の値は不正です。");
 		}
 
 		final int MAX_VALUE = 13;
-		if (MAX_VALUE <= args) {
+		if (MAX_VALUE <= n) {
 			throw new IllegalArgumentException("13以上の値は不正です。");
 		}
 
-		int answer = kaijou(args);
+		int answer = kaijou(n);
 
 		return answer;
 	}
